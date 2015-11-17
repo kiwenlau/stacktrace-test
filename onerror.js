@@ -3,7 +3,7 @@ window.onerror = function(msg, file, line, col, error) {
     
     function callback (result) {
     	// body...
-    	console.log(result);
+    	console.log(result[0]);
     }
 
     function errback (error) {
